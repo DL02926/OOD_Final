@@ -5,6 +5,14 @@ public class Employee {
 	private float hours;
 	public ArrayList<Patient> patients;
 	
+	public Employee() {
+		
+	}
+	
+	public Employee(String name) {
+		this.name = name;
+	}
+	
 	public String getName() {
 		return name;
 	}
