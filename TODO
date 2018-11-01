@@ -1,0 +1,15 @@
+-Fix bug where you when you press cancel when you’re trying to add a patient or employee it still adds whatever is in the boxes
+-Delete events (use mindfusion API)
+-Put JLists in JScrollPanels
+-Dynamically make calendars upon creation of each patient/employee
+-Add card layout to calPanel and make method to display calendar based on patient/employee
+-We already have an event listener for this for employees
+-Add event listener to platient JList and do the above task for that list
+-Save employees and patients in a file and reload on start
+-Add weekly/monthly view options to combo box
+-Set view when you select either of these
+-Set options to make recurrences
+-Figure out way to save the calendar to an image/pdf file and print (this can probably be one of the last things we do)
+-Method to track weekly hours for each employee and flag for >40
+-How to handle requested time off?
+-How to display information for employee hours?
